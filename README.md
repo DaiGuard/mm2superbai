@@ -1,5 +1,28 @@
 # mm2superbai
 
+Mech-Mind DLKフォーマットのデータセットをSuperAIにアップロードできるCOCOフォーマットへ変換するスクリプト
+
+## 環境設定
+
+```bash
+pip install -r requirements.txt
+```
+
+## 使用方法
+
+```bash
+python mm2superbai.py --input mm_data --output output
+
+------
+usage: mm2superbai.py [-h] [--input INPUT] [--output OUTPUT]
+
+Convert dataset to COCO format from Mech-Mind DLK format.
+
+options:
+  -h, --help           show this help message and exit
+  --input, -i INPUT    Input directory for Mech-Mind DLK format deataset.
+  --output, -o OUTPUT  Output directory for COCO format dataset.
+```
 
 ## ビューアソフトの準備
 

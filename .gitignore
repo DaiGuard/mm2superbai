@@ -8,6 +8,7 @@ __pycache__
 
 # データセット関連
 output/
+output.zip
 mm_data/
 
 # ビューアソフト

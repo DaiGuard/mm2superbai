@@ -376,13 +376,14 @@ if __name__ == '__main__':
 
         # COCOフォーマットのデータセットを作成
         create_superbai_dataset(roi_config, dataset, output_dir)
+        logger.info(f"COCOフォーマットデータセットを {output_dir} に保存しました。")
 
         # COCOデータセットをZIP圧縮
-        zip_filename = f"{output_dir}.zip"
-        shutil.make_archive(output_dir, 'zip')
-
-        # ログ出力
-        logger.info(f"COCOフォーマットのデータセットを {zip_filename} に保存しました。")
+        zip_filename = os.path.abspath(output_dir)
+        logger.info(f"COCOフォーマットのデータセットを {zip_filename} に圧縮開始します。")
+        shutil.make_archive(zip_filename, 'zip', base_dir=os.path.basename(zip_filename))
+        logger.info(f"COCOフォーマットのデータセットを {zip_filename} に圧縮終了しました。")
+        
 
     except Exception as e:
         logger.error(f"エラーが発生しました: {e}")
