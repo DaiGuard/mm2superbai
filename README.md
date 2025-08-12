@@ -1,6 +1,6 @@
 # mm2superbai
 
-Mech-Mind DLKフォーマットのデータセットをSuperAIにアップロードできるCOCOフォーマットへ変換するスクリプト
+[Mech-Mind DLK](https://mech-mind.co.jp/product/mech-dlk/)フォーマットのデータセットを[Superb AI](https://superb-ai.com/ja)にアップロードできるCOCOフォーマットへ変換するスクリプトです
 
 ## 環境設定
 
@@ -51,4 +51,6 @@ python cocoviewer.py -i output/data -a output/annotations/instances_train2017.js
 
 ## 参考
 
-[COCOからインポートする](https://apps.superb-ai.com/browse/d9415dad-1977-457d-a10b-409af2cc4c0e)
+- [Mech-Mind DLK](https://mech-mind.co.jp/product/mech-dlk/)
+- [Superb AI](https://superb-ai.com/ja)
+- [COCOからインポートする](https://apps.superb-ai.com/browse/d9415dad-1977-457d-a10b-409af2cc4c0e)
