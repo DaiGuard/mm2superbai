@@ -57,4 +57,4 @@ python cocoviewer.py -i output/data -a output/annotations/instances_train2017.js
 
 ## TODO
 
-- [ ] Superb AI CLIを使ってアップロードする仕様に変更したい
+- [ ] Superb AI CLIを使ってアップロードする仕様に変更したい *[Uploading Raw Data and Labels](https://docs.superb-ai.com/reference/uploading-raw-data-and-labels)
