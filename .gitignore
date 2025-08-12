@@ -1,0 +1,15 @@
+# 環境設定ファイル
+.vscode
+.venv
+
+# Python関連
+*.py[cod]
+__pycache__
+
+# データセット関連
+output/
+mm_data/
+
+# ビューアソフト
+cocoviewer.py
+
