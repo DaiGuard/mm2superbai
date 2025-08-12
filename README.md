@@ -54,3 +54,7 @@ python cocoviewer.py -i output/data -a output/annotations/instances_train2017.js
 - [Mech-Mind DLK](https://mech-mind.co.jp/product/mech-dlk/)
 - [Superb AI](https://superb-ai.com/ja)
 - [COCOからインポートする](https://apps.superb-ai.com/browse/d9415dad-1977-457d-a10b-409af2cc4c0e)
+
+## TODO
+
+- [ ] Superb AI CLIを使ってアップロードする仕様に変更したい
